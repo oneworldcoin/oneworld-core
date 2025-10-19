@@ -1,0 +1,94 @@
+# 🌐 OneWorld Token (OneW)
+
+### Empowering Humanity Through Technology & Compassion
+
+**OneWorld (OneW)** is a next-generation blockchain ecosystem built by the **One World Organization**, operating in over **157 countries**, with a shared vision to create a fairer, more connected, and sustainable world through decentralized innovation.
+
+---
+
+## 💡 Vision
+
+To unite humanity through technology and ethics — merging blockchain innovation with global humanitarian impact.  
+OneWorld bridges profit-driven progress with non-profit compassion.
+
+---
+
+## 🌍 Mission
+
+To establish a blockchain network that empowers every human being with access to:
+
+- Free and open internet (OneWorld Net – satellite-based)
+- Decentralized cloud storage (Insan Cloud Web3)
+- Blockchain-based real estate (NFT-linked deeds & smart contracts)
+- Educational equality (Free learning platforms and moral education)
+- Cultural and religious harmony (Religious Harmony Project)
+
+---
+
+## 🪙 Tokenomics
+
+| Allocation | Amount | Purpose |
+|-------------|---------|----------|
+| Circulating Supply | 21,000,000 OneW | Public & development |
+| Rewards Vault | 21,000,000 OneW | Global distribution, charity, and incentives |
+| **Total Supply Cap** | **42,000,000 OneW** | Fixed maximum supply |
+
+- **Blockchain:** Binance Smart Chain (BNB Chain – Mainnet)  
+- **Decimals:** 18  
+- **Symbol:** `ONEW`  
+- **Contract Name:** `OneW`  
+- **Vault Contract:** `RewardsVault`  
+- **Minting:** 50% to deployer, 50% to RewardsVault at deployment  
+
+---
+
+## ⚙️ Technical Overview
+
+- Smart contracts built using **Solidity & Hardhat**
+- Ready for **future migration** to OneWorld private chain
+- Compatible with **MetaMask** & **BNB Smart Chain**
+- Modular design for scalability (DeFi, staking, and cross-chain bridge ready)
+
+---
+
+## 🌱 Humanitarian Projects
+
+| Project | Type | Description |
+|----------|------|-------------|
+| Religious Harmony | Non-profit | Promoting coexistence between religions |
+| Insan / Human | Non-profit | Free access to education, ethics, and culture |
+| Cloud Web3 | Tech Infrastructure | Decentralized storage for everyone |
+| OneWorld Net | For-profit | Global satellite internet with free access for schools |
+| RealEstate Live | For-profit | Real estate NFT contracts linked to local laws |
+
+---
+
+## 🔒 Security & Transparency
+
+All contracts are open-source and verified on **BscScan**.  
+Future governance decisions will transition to a **DAO** to ensure community-led development.
+
+---
+
+## 🚀 Deployment
+
+Deployment script: `scripts/deploy.js`
+
+Deployment command:
+
+```bash
+npx hardhat run scripts/deploy.js --network bsc
+🤝 Join the Mission
+
+We believe in One Humanity • One Earth • One Chain
+
+Follow us as we build bridges between innovation and compassion.
+
+> For partnerships and collaborations, contact: contact@oneworld.foundation
+
+
+
+
+---
+
+Made with ❤️ by the One World Organization
