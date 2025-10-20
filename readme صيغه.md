@@ -1,3 +1,4 @@
+````markdown
 # 🌐 OneWorld Token (OneW)
 
 ### Empowering Humanity Through Technology & Compassion
@@ -78,6 +79,7 @@ Deployment command:
 
 ```bash
 npx hardhat run scripts/deploy.js --network bsc
+```
  
 ### Preparing to deploy (safety checklist)
 
@@ -94,6 +96,7 @@ BSC_RPC=https://bsc-dataseed.binance.org/
 - After successful deployment, remove any private keys from local files and do not push them to remote.
 
 If you want, the project maintainer can help prepare the repository so the only step you need is to paste your private key into `.env` locally and run the deploy command.
+
 🤝 Join the Mission
 
 We believe in One Humanity • One Earth • One Chain
@@ -104,7 +107,7 @@ Follow us as we build bridges between innovation and compassion.
 
 
 
-
 ---
 
 Made with ❤️ by the One World Organization
+````
