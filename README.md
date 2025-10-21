@@ -147,6 +147,20 @@ npx hardhat run scripts/deploy.js --network bsc
 - إعداد Gnosis Safe ومسك ownership إلى multisig بعد النشر.
 - كتابة سكربت نشر يستخدم توقيع عبر Gnosis Safe.
 - ربط منصة الـNFT بواجهة backend آمنة لتوقيع mint transactions.
+ 
+### إنشاء اقتراح Gnosis Safe لنقل الملكية (آمن)
+
+استخدم السكربت التالي لتهيئة ملف JSON جاهز لاقتراح نقل ملكية العقود إلى الـ multisig (لن يوقّع أو يرسل المعاملات، فقط يحضّر البيانات):
+
+```bash
+# ضع قيم MULTISIG_ADDRESS و ONEW_ADDRESS و REWARDS_VAULT_ADDRESS في .env محلياً
+node scripts/prepare-safe-proposal.js
+
+# سيُنشىء: deployments/safe-proposal.json
+```
+
+يمكنك بعدها رفع `deployments/safe-proposal.json` إلى واجهة Gnosis Safe أو استخدام Safe Transaction Service API لاقتراح وتنفيذ هذه المعاملات بعد توقيعها من قبل مالكي الـ multisig.
+
 
 أخبرني أي خدمة تحب أبدأ بها وسأعملها خطوة بخطوة مع الأوامر والملفات اللازمة.
 
