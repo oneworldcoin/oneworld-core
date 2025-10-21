@@ -18,7 +18,7 @@ contract RewardsVault is Ownable {
         uint256 _allocated,
         uint256 _startTime,
         uint256 _duration
-    ) Ownable(msg.sender) {
+    ) Ownable() {
         token = IERC20(_token);
         beneficiary = _beneficiary;
         allocated = _allocated;
